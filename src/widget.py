@@ -28,4 +28,4 @@ def get_date(date_string: str) -> str:
     year, month, day = date_part.split("-")
 
     # Собираем в нужном формате
-    return f"{day}.{month}.{year}"
+    return f"{day}.{month}.{year}."
