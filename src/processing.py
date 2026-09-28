@@ -1,8 +1,7 @@
 from typing import Any, Dict, List
 
-def filter_by_state(
-    data: List[Dict[str, Any]], state: str = "EXECUTED"
-) -> List[Dict[str, Any]]:
+
+def filter_by_state(data: List[Dict[str, Any]], state: str = "EXECUTED") -> List[Dict[str, Any]]:
     """
     Фильтрует список словарей по значению ключа 'state'.
     Возвращает новый список, не изменяя исходный.
