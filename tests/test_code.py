@@ -9,5 +9,5 @@ def test_up_first_for_empty():
     assert up_first('') == ''
 
 
-def test_revers_string():
-    assert revers_string("321") == "123"
+def test_revers_string(my_string: object) -> None:
+    assert revers_string(my_string) == "321"
