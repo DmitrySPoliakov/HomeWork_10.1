@@ -11,3 +11,4 @@ def test_up_first_for_empty():
 
 def test_revers_string(my_string: object) -> None:
     assert revers_string(my_string) == "321"
+
